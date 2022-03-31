@@ -2,6 +2,10 @@ package com.udacity.shoestore
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.widget.Toolbar
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
@@ -11,4 +15,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Timber.plant(Timber.DebugTree())
     }
+
 }
